@@ -14,8 +14,9 @@
 .login-container{
   width: 100%;
   height: 100%;
+  opacity: 90%;
 
-  background-image: url('@/assets/img/umi.jpg');
+  background-image: url('@/assets/img/login_bg.png');
   background-size: 100% 100%;
 
   display: flex;
@@ -24,8 +25,10 @@
   .login{
     width: 40%;
     height: 50%;
-
+    border:5px solid white;
+    border-radius: 5%;
+    opacity: 90%;
     background-color: #fff;
-  }
+  };
 }
 </style>

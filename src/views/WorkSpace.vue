@@ -6,13 +6,10 @@
   <div class="work-space">
     <div class="nav">
       <div class="info">
-
       </div>
       <div class="nav-list">
-
       </div>
       <div class="exit">
-
       </div>
     </div>
     <RouterView />
@@ -30,6 +27,7 @@
   position: fixed;
   width: 350px;
   height: 100%;
+  background-color: #E6EAF18A;
 
   display: flex;
   flex-flow: column;
@@ -38,19 +36,20 @@
     width: 100%;
     height: 15%;
 
-    background-color: #ffffff;
+    background-color:  #E6EAF18A;
   }
   &-list{
     width: 100%;
     height: 70%;
-
-    background-color: red;
-  }
+    background-color:#E6EAF18A;
+    };
   .exit{
     width: 100%;
     height: 10%;
 
-    background-color: gray;
+    background-color:  #E6EAF18A;
+    ;
   }
 }
+
 </style>

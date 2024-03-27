@@ -16,7 +16,18 @@ const router = createRouter({
         {
           path: 'doctor',
           component: () => import('@/views/login/DoctorLogin.vue')
-        }
+        },
+      ]
+    },
+    {
+      path: '/login',
+      redirect: '/login/manager',
+      component: () => import('@/views/LoginPage.vue'),
+      children: [
+        {
+          path: 'manager',
+          component: () => import('@/views/login/ManagerLogin.vue')
+        },
       ]
     },
     {
