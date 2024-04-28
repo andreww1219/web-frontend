@@ -20,7 +20,7 @@
 .work-space{
   width: 100%;
   height: 100%;
-  background-color: var(--workspace-background);
+  background-color:#E6EAF18A;
 
 }
 .nav{

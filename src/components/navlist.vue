@@ -1,4 +1,9 @@
 <script setup>
+import router from '@/router';
+
+function tolog(){
+  router.push({path:'/work/log'})
+}
 </script>
 
 <template>
@@ -33,7 +38,7 @@
       <img class='navicon' src="@\assets\img\health.png"/>
       <div class="text">健康教育和资源库</div>
     </div>
-    <div class="block">
+    <div  @click="tolog" class="block">
        <img class='navicon' src="@\assets\img\log.png"/>
        <div class="text">系统日志</div>
       </div>
